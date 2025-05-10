@@ -1,0 +1,114 @@
+/*1. Mendefinisikan Variabel global yang akan mempengaruhi gaya dari tiap ojek (berisi 6 parameter)*/
+{
+    "glb-var:" : {
+        "Param1_warna": "D5AEF2,F2AECC,F2D5AE",
+        "Param2_style_visual" : "3D Render,high detail, rounded, translucent (opacity 0.45)",
+        "Param4_pencahayaan_suasana": "Studio Lighting, Diffusion Ligting, Reflective Lighting",
+        "Param5_background_komposisi": "Soft Shadow,Transparent Background (png)",
+        "Param6_negative_prompt": "Blurry, Low Quality, Artifact Compression, Bad Lighting"
+    },
+/*2. Banyaknya frame atau objek yang akan digenerate*/
+    "frame_objek1": "Kado Ulang Tahun, tampak depan, posisi miring ke kanan",
+    "frame_objek2": "Kue Ulang Tahun, tampak depan, posisi miring ke kanan",
+    "frame_objek3": "Boneka Beruang, tampak depan, posisi miring ke kanan",
+    "frame_objek4": "Bunga Mawar, tampak depan, posisi miring ke kanan"
+}
+
+/*-------------------Jangan Copas dibawah ini!-------------------*?
+/*Pilihan value yang ada di Setiap Param*/
+/*
+"Param1_warna": {
+    Bisa menggunakan hex color,misalnya "#D5AFF2#
+    Bisa menggunakan nama warna
+},
+"Param2_Style_visual": {
+    "3D render",
+    "ilustrasi vektor",
+    "lukisan cat air",
+    "sketsa pensil",
+    "gaya kartun",
+    "pixel art",
+    "paper cut",
+    "low poly",
+    "high poly detail",
+    "flat design",
+    "abstract expressionism",
+    "surrealism",
+    "pop art",
+    "minimalis",
+    "futuristik",
+    "retro 80an",
+    "cyberpunk",
+    "steampunk",
+    "isometric",
+    "line art"
+}
+
+"Param4_pencahayaan_suasana": {
+    "pencahayaan studio lembut",
+    "sorotan dramatis",
+    "cahaya alami matahari terbenam",
+    "cahaya bulan misterius",
+    "pencahayaan neon futuristik",
+    "cahaya bokeh lembut",
+    "pencahayaan volumetrik (god rays)",
+    "pencahayaan rim light",
+    "pencahayaan ambient oklusi",
+    "cahaya kontras tinggi",
+    "pencahayaan merata",
+    "cahaya hangat",
+    "cahaya dingin",
+    "pencahayaan bawah (underlighting)",
+    "pencahayaan atas (top-down)",
+    "simulasi global illumination",
+    "cahaya berpendar",
+    "cahaya reflektif",
+    "tanpa bayangan (flat lighting)",
+    "pencahayaan dengan gradien"
+
+"Param5_background_komposisi" : {
+    "latar belakang transparan",
+    "latar belakang gradien halus",
+    "latar belakang abstrak berwarna-warni",
+    "latar belakang tekstur (misalnya, kayu, batu)",
+    "latar belakang bokeh",
+    "latar belakang minimalis solid",
+    "latar belakang dengan pola geometris",
+    "latar belakang dengan ilustrasi subtil",
+    "latar belakang dengan pemandangan alam (blur)",
+    "latar belakang dengan cityscape (blur)",
+    "komposisi fokus tengah",
+    "komposisi rule of thirds",
+    "komposisi simetris",
+    "komposisi diagonal",
+    "komposisi close-up",
+    "komposisi wide shot",
+    "komposisi dengan elemen tambahan (props blur)",
+    "komposisi atmosferik (kabut)",
+    "komposisi dengan negative space banyak",
+    "komposisi dinamis"
+}
+
+"Param6_negative_prompt": {
+    "buram",
+    "tidak fokus",
+    "tekstur kasar",
+    "realistis",
+    "foto",
+    "detail berlebihan",
+    "proporsi aneh",
+    "artefak kompresi",
+    "noise",
+    "distorsi",
+    "warna pudar",
+    "pencahayaan buruk",
+    "bayangan tajam yang mengganggu",
+    "latar belakang ramai",
+    "elemen yang tidak relevan",
+    "logo atau watermark",
+    "teks",
+    "gambar terpotong",
+    "simetri yang sempurna (terlalu kaku)",
+    "terlalu sederhana"
+}
+*/
